@@ -1,0 +1,101 @@
+# =========================
+# Java
+# =========================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Java package files
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+
+# =========================
+# Maven
+# =========================
+
+# Maven build directory
+target/
+
+# Maven wrapper generated files
+.mvn/timing.properties
+
+
+# =========================
+# IntelliJ IDEA
+# =========================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IntelliJ project files
+out/
+
+# IntelliJ generated files
+.idea_modules/
+
+
+# =========================
+# Eclipse
+# =========================
+
+.classpath
+.project
+.settings/
+
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+
+# =========================
+# OS
+# =========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+
+
+# =========================
+# Environment / secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# Local configuration
+application-local.properties
+application-local.yml
+application-local.yaml
